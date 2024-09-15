@@ -1,0 +1,40 @@
+body{
+ background-color: #f397b2;
+ font-size: 1.6rem;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+
+ 
+}
+div{
+    width: 85%;
+   margin-left: 7.5%;
+   margin-right: 7.5%;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+p{
+    text-align: justify;
+}
+html {
+    font-size: 100%; /* Base font size in percentage for different devices */
+}
+
+body {
+    font-size: 1rem; /* Default font size */
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 1rem; /* Smaller font size for mobile devices */
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        font-size: 1.5rem; /* Larger font size for larger screens */
+    }
+}
